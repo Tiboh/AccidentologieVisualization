@@ -1,0 +1,51 @@
+Students : Mounia HAMEDI & Thibault HUCKERT
+
+Link : http://opendata.paris.fr/explore/dataset/accidentologie/?tab=table&dataChart=eyJxdWVyaWVzIjpbeyJjb25maWciOnsiZGF0YXNldCI6ImFjY2lkZW50b2xvZ2llIiwib3B0aW9ucyI6eyJ0YWIiOiJhbmFseXplIn19LCJjaGFydHMiOlt7InR5cGUiOiJsaW5lIiwiZnVuYyI6IkFWRyIsInlBeGlzIjoiZGVwdCIsImNvbG9yIjoiIzY2YzJhNSJ9XSwieEF4aXMiOiJkYXRlIiwibWF4cG9pbnRzIjoiIiwidGltZXNjYWxlIjoieWVhciIsInNvcnQiOiIifV0sInRpbWVzY2FsZSI6InllYXIifQ%3D%3D
+Title : Accident in Paris.
+
+- Carac = Caracteristics ; 
+- Com = Town (3-digit number, consisting of 1 [for Paris] followed by the number of the district);
+- Carr = crossroad ; (RGU code : Unique Geographic Référentiel)
+- Segm = track segment ; 
+- NomV = street name ; 
+- Vehi1 = first vehicle involved; 
+- CAdmin = administrative category of vehicle, 
+- LVeh = letter of the vehicle involved (the vehi1 the letter A, the vehi2 the letter B, the vehi3, if there is a third, the letter C, the letter Z means "Fleeing vehicle" ;
+- CatU = user category (BL = injured lighter, BH = injured hospitalized)
+
+Source : Direction de la Voirie et des déplacements - Agence de la mobilité
+Time Period : 01 January 12 - 31 December 13
+
+
+
+
+Example of questions :
+ - Days of the year where there is a high accident rate
+ - Hours of the day where there is a high accident rate
+ - Locate accidents on a map
+ - Which type of vehicule are the most involved in accidents
+ - Which are the type of injuries depending of the vehicle
+ 
+Vehicle Category :
+
+1        Bicy  Bicyclette
+2         Bus   Bus
+3         Car   Car
+4       Cyclo   Cyclomoteur
+5       Engin    Engin
+6    Moto>125  Moto supérieur 125cm²
+7  Moto50-125   Moto entre 50 et 125cm²
+8     PL<=7,5   Poids lourds inférieur ou égal à 7,5T
+9      PL>7,5   Poids lourds supérieur à 7,5T
+10      PLRem   Poids lourds avec remorques
+11      Q<=50   Quads inférieurs 50cm²
+12       Q>50   Quads supérieur 50cm²
+13   Scoo<=50   Scooter
+14   Scoo>125   Scooter
+15 Scoo50-125   Scooter
+16         TR   Tracteur routier
+17       Tram     6
+18      TRSem   Tracteur routier + semi remorque
+19         VL Voiture légère
+20        Voi    39
+21         VU  Véhicule utilitaire
