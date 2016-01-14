@@ -3,5 +3,7 @@ A student project with Shiny by RStudio. We used a dataset about accidents in Pa
 
 To run the project in R :
 
+```
 > library("shiny")
 > runGitHub( "AccidentologieVisualization", "Tiboh")
+```
