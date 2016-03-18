@@ -1,5 +1,5 @@
 # AccidentologieVisualization
-A student project with Shiny by RStudio. We used a dataset about accidents in Paris between 2012 and 2013, and visualized data to discover information.
+A student project with the package Shiny in RStudio. We used a dataset about accidents in Paris for the years 2012 and 2013, and visualized data to discover information.
 
 ![screenshot](https://github.com/Tiboh/AccidentologieVisualization/blob/master/screenshot.png)
 
